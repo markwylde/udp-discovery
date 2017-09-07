@@ -20,5 +20,12 @@ docker run -d --network="testeroo" -v $(pwd):/app node node /app/example-server
 # Now in your query tab you should see a new item
 ```
 
+You should see something like the below in your output:
+```bash
+["1cc8dab59682","my-example-app",{"name":"Example App","description":"This is an example app","port":35799}]
+["893a976e710b","my-example-app",{"name":"Example App","description":"This is an example app","port":35367}]
+["a9b5d7df81bc","my-example-app",{"name":"Example App","description":"This is an example app","port":32993}]
+```
+
 This project doesn't handle service destruction.
 
