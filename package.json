@@ -1,0 +1,11 @@
+{
+  "name": "udp-discovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example-query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Wylde <me@markwylde.co.uk>",
+  "license": "LGPL-3.0"
+}
