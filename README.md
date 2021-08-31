@@ -2,7 +2,7 @@
 This is an example of creating a simple UDP multicast client/server relationship. It was part of my own research into building a service discovery method in docker.
 
 ## Testing Result
-Note that this test failed to proof the original concept, at least in Docker, due to the inability to use multicast in Docker networking.
+Note that this test failed to prove the original concept, at least in Docker, due to the inability to use multicast in Docker networking.
 
 It seems unlikely Docker will implement it, therefore my conclusion is using UDP for service discovery in Docker is not a viable solution.
 https://github.com/docker/libnetwork/issues/552
